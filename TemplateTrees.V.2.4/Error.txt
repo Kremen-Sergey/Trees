@@ -1,0 +1,39 @@
+int ConsoleMenu::getMenuItem()
+{
+	int v;
+	do
+	{
+		system("cls");
+		std::cout << "Input your choice:" << std::endl;
+		std::cout << "1 - Pre-order print tree" << std::endl;
+		std::cout << "2 - In-order print tree" << std::endl;
+		std::cout << "3 - Post-order print tree" << std::endl;
+		std::cout << "4 - Add elephant to tree" << std::endl;
+		std::cout << "5 - Searh elephant in tree by value(Elephant)" << std::endl;
+		std::cout << "6 - Searh elephant in tree by key(age)" << std::endl;
+		std::cout << "7 - Quit" << std::endl;
+		std::cout << "Input your choise: " << std::endl;
+		std::cin >> v;
+		while (!std::cin)
+		{
+			std::cout << "Enter only integer!!!";
+			std::cin.clear();
+			while (std::cin.get() != '\n') continue;
+			std::cin >> v;
+		}
+		//  Ввод значения во временную переменную "v".
+		//  Если ввели строку, в которой сначала идут цифры, а потом произвольные символы,
+		//  то цифры возьмутся в качестве числа, а остальные символы проигнорируются.
+		//  Если ввести первым символ в строке, то введённое значение не подходит,
+        //	и в очереди потока в cin, выставляется флаг, имеющий значение "ложь".
+        //	Состояние потока становится ошибочным и дальнейший ввод из него невозможен.
+		//	cin.clear() - Сбрасывает состояние потока, делая его вновь доступным для ввода,
+        //  при этом не очищает очередь символов.
+		//  Цикл
+		//	while (cin.get() != '\n') continue;
+		//  используется для очистки очереди символов.
+		//	cin.get() - читает 1 символ из потока, когда cin.get() считает символ '\n' - это будет
+		// означать, что в потоке больше нет символов.
+	} while ((v<1) || (v>6));
+	return v;
+}

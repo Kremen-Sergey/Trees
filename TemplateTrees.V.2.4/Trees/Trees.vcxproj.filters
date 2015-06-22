@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{7929e76d-8629-4fc2-8d29-f59ea792c2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ValueClasses">
+      <UniqueIdentifier>{4a732c86-3037-41ba-8ab4-af2435989d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nodes">
+      <UniqueIdentifier>{b6abdf2d-fc8e-4b23-b44e-8ac8531beaf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryTree">
+      <UniqueIdentifier>{a853b461-d21c-4ac7-8176-1c5f70f14246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SearhTree">
+      <UniqueIdentifier>{da6bbdb0-b9c0-42a6-b51e-03213a7f2f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BalanceTree">
+      <UniqueIdentifier>{757273aa-2696-401a-b976-9023f65d5160}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ConsoleMenu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TestForAVLTree.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TestForBinaryTree.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TestForCompareFunction.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TestForElephant.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TestForNode.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TestForSearhTree.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueClasses\CompareFunctions.hpp">
+      <Filter>ValueClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueClasses\KeyGenFunction.hpp">
+      <Filter>ValueClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueClasses\Elephant.h">
+      <Filter>ValueClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\Node.hpp">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\RBNode.hpp">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree\IBinaryTree.hpp">
+      <Filter>BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree\BinaryTree.h">
+      <Filter>BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SearhTree\SearhTree.h">
+      <Filter>SearhTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SearhTree\ISearhTree.hpp">
+      <Filter>SearhTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BalanceTree\IBalanceTree.hpp">
+      <Filter>BalanceTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BalanceTree\AVLTree.h">
+      <Filter>BalanceTree</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TestFunctions.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ConsoleMenu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TestForAVLTree.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TestForBinaryTree.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TestForCompareFunction.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TestForElephant.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TestForNode.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TestForSearhTree.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueClasses\Elephant.cpp">
+      <Filter>ValueClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree\BinaryTree.cpp">
+      <Filter>BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="SearhTree\SearhTree.cpp">
+      <Filter>SearhTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BalanceTree\AVLTree.cpp">
+      <Filter>BalanceTree</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
